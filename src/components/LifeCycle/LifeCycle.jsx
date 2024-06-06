@@ -2,6 +2,12 @@ import React from 'react';
 import style from './LifeCycle.module.css';
 
 export class LifeCycle extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cycle: '',
+    }
+  }
   render() {
     return (
       <div>
